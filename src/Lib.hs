@@ -58,7 +58,7 @@ data Token = Token
 
 
 user = User "user" "pass"
-token = Token "1" "user"
+-- token = Token "1" "user"
 
 checkUser :: User -> ActionM ()
 checkUser u = if u == user 
